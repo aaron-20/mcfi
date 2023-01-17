@@ -1,0 +1,58 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} 
+
+#header
+{
+    background-image: url("../img/building.PNG");
+    background-position: center;
+    padding: 1.5em;
+}
+
+.menu-bar
+{
+    list-style-type: none;
+    display: flex;
+    background-color:darkred;
+    overflow: hidden;
+    padding:16px 16px 16px 0;
+    margin:0;
+}
+
+#nav a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+#nav a:hover
+{
+    background-color: red;
+    transition: 0.5s;
+}
+
+table, td, th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 25px;
+    text-align: center;
+}
+
+th
+{
+    padding: 10px 0px;
+    background-color: darkgreen;
+    color: white;
+    font-family: sans-serif;
+}
+
+tr:hover
+{
+    background-color: lightgreen;
+    transition: 0.5s;
+}

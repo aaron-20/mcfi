@@ -1,0 +1,114 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} 
+
+#header
+{
+    background-image: url("../img/building.PNG");
+    padding: 1.5em;
+    background-position: center;
+}
+
+.menu-bar 
+{
+    list-style-type: none;
+    background-color: darkred;
+    display: flex;
+    margin:0;
+    padding: 16px 16px 16px 0;
+    overflow: hidden;
+}
+
+#nav a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+#nav a:hover
+{
+    background-color: red;
+    transition: 0.5s;
+}
+
+div.rule
+{
+    text-align: center;
+    /* position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;  */
+}
+
+div.link 
+{
+    border: 1px solid #ccc;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.link p 
+{
+    text-align: center;
+}
+
+h1.rule-no
+{
+    border-radius: 10px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+h1.sticky
+{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+
+div.container
+{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 30px 100px;
+}
+
+div.container:hover
+{
+    border: 1px solid #777;
+}
+
+p.par
+{
+    margin: 15px;
+    padding: 5px;
+    text-align: justify;
+}
+
+p.par1::first-line
+{
+    font-family:cursive;
+    color:blue;
+    text-decoration:underline;
+}
+
+p.par2::first-letter
+{
+    font-size: 3em;
+    font-family:cursive;
+    color:blue;
+}
+
+#foot
+{
+    text-align: center;
+    padding: 5px;
+}
